@@ -1,24 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
     background: #43C6AC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    font-family: 'Roboto', sans-serif;
 }
 
 #header-img{
     width: 2%
 }
 
-.header{
-    position: fixed;
+#heading{
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    background-color: #0089ef;
 }
 
 
 
 #video{
-    margin-top: 20%;
+    margin-top: 15%;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.form-box{
+    margin-top: 10%;
     height: 100%;
     width: 100%;
 }
+
+#submit{
+    width: 30%;
+}
+
+
+
 
 
